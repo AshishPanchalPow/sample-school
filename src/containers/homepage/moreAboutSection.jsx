@@ -47,16 +47,10 @@ const AboutImg = styled.img`
 export function MoreAboutSection(props) {
   return (
     <MoreAboutContainer>
-      <SectionTitle>More About Beema</SectionTitle>
+      <SectionTitle>Yo! This is cooooolllll!!</SectionTitle>
       <AboutContainer>
         <AboutText>
-          Beema is about designing, building and deliverying best quality
-          software for your company. {<br />}
-          {<br />} We make sure that you get the best software inferstracture
-          and set of applications to ensure the best experience of your clients.{" "}
-          {<br />}
-          {<br />} So wether you are handling thousands of payment transactions
-          or you’re just starting out, you are in the right place.
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         </AboutText>
         <AboutImg src={AboutImgUrl} />
       </AboutContainer>

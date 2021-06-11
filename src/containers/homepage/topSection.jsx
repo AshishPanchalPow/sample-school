@@ -55,10 +55,10 @@ export function TopSection(props) {
           <Marginer direction="vertical" margin="8em" />
           <Logo />
           <Marginer direction="vertical" margin="4em" />
-          <MotivationalText>Software Development</MotivationalText>
+          <MotivationalText>Learn From</MotivationalText>
           <MotivationalText>From the Best in the Industry</MotivationalText>
           <Marginer direction="vertical" margin="2em" />
-          <Button>Start your Project</Button>
+          <Button>Start your Child's Growth</Button>
           <DownArrowContainer onClick={scrollToNextSection}>
             <DownArrow />
           </DownArrowContainer>

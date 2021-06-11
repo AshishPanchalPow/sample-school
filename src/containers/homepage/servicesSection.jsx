@@ -21,28 +21,22 @@ const ServicesContainer = styled(Element)`
 export function ServicesSection(props) {
   return (
     <ServicesContainer name="servicesSection">
-      <SectionTitle>Best Quality Software</SectionTitle>
+      <SectionTitle>Best Place to Learn</SectionTitle>
       <Marginer direction="vertical" margin="3em" />
       <OurSerivce
-        title="Fully integrated services"
-        description="We build and deliver fully integrated webapps
-          with customized control panels that fit your 
-          compnay needs"
+        title="Best Teachers in the country"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         imgUrl={Service1Img}
       />
       <OurSerivce
-        title="Mobile optimized"
-        description="We build and deliver fully integrated webapps
-          with customized control panels that fit your 
-          compnay needs"
+        title="Lorem Ipsum"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         imgUrl={Service2Img}
         isReversed
       />
       <OurSerivce
-        title="Quality is our priority"
-        description="We have teams of professional developers, designers
-        and managers that ensures delivering the best 
-        software quality for your company"
+        title="Education is our priority"
+        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt"
         imgUrl={Service3Img}
       />
     </ServicesContainer>
